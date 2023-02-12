@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb358a052967f4d4083846014ac0fcc6, type: 3}
+  m_Name: Virgin
+  m_EditorClassIdentifier: 
+  Name: Virgin
+  Description: 
+  baseHealth: 100
+  isMelee: 1
+  baseDamage: 10
+  baseAttackSpeed: 1
+  baseAttackRange: 1.5
+  detectionRange: 10
+  baseMoveSpeed: 2.5
+  baseJumpForce: 5
+  canDoubleJump: 0
+  SignatureWeapon: {fileID: 0}
+  PassiveAbility: {fileID: 0}
+  UltimateAbility: {fileID: 0}
+  doesFlinch: 1
+  doSounds: 1
+  doIdleSounds: 1
+  idleSoundsMinimumWait: 3
+  idleSoundsMaximumWait: 7
+  attackAudioClips:
+  - {fileID: 8300000, guid: 915b3160061afd64d932fdcadf8c01e0, type: 3}
+  - {fileID: 8300000, guid: f2dac90b55de860409f8f86653ae9de3, type: 3}
+  - {fileID: 8300000, guid: 19fa3002c5ecdc64da22388ad1d2f740, type: 3}
+  - {fileID: 8300000, guid: 466404b6f4792084a85b172ff1009a4d, type: 3}
+  - {fileID: 8300000, guid: cbb7f5e91f3903c408553d9f1c02ed7f, type: 3}
+  damagedAudioClips:
+  - {fileID: 8300000, guid: 04bb78f830537834c90b4b06bb6c64bb, type: 3}
+  - {fileID: 8300000, guid: 05ebd1c8a4d9fad4a943690a41c2e09a, type: 3}
+  brutalDamageAudioClips:
+  - {fileID: 8300000, guid: 9c3d2b2fefa9c334a80143518d1cc85f, type: 3}
+  IdleAudioClips:
+  - {fileID: 8300000, guid: 8ce5ee6870c962f4a94688145209cb4a, type: 3}
+  - {fileID: 8300000, guid: f0969d00bc2b03a4eb0b7f551cd8c539, type: 3}
+  - {fileID: 8300000, guid: 4323d4ecde463da4c9503ff000f9af61, type: 3}
+  - {fileID: 8300000, guid: fddaef7a8eb41d646a6894bf4501e92a, type: 3}
+  - {fileID: 8300000, guid: 9fad525bf273f8348b54c377e960b98e, type: 3}
+  - {fileID: 8300000, guid: 9ebc19341da065b43a46b0ee6649936b, type: 3}
+  despawnSoundEffect: {fileID: 8300000, guid: da06d07705ca0c34484b5e9b3213d0e4, type: 3}

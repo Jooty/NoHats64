@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Poison01
+  m_Shader: {fileID: -6465566751694194690, guid: dcd080f42ba67ce43a1e5da7e0b613c4,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_264A3F0C:
+        m_Texture: {fileID: 2800000, guid: 0ed9ca6110d6f1e478f943ddea9affbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_E5FBA2BD:
+        m_Texture: {fileID: 2800000, guid: 397f8b9ba1a3c8648acdd6f1418fb069, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_124CB939: 3
+    - Vector1_413D6F8: 1
+    - Vector1_482F2EA: 0.1
+    - Vector1_6ADF4375: 0.5
+    - Vector1_D0852F37: 0.086
+    - Vector1_F448B455: 3
+    m_Colors:
+    - Color_8C060E2E: {r: 4.237095, g: 4.237095, b: 4.237095, a: 1}
